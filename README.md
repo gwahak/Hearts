@@ -1,12 +1,12 @@
 # Hearts
 
-A Python implementation of Hearts. This project is a work in progress. My future goal is to utilize machine learning techniques to "teach" computer opponents to play competitively.
+A Python implementation of Five Player Hearts. This project is a work in progress. My future goal is to utilize machine learning techniques to "teach" computer opponents to play competitively.
 
 # Objective
 Win all the hearts and the queen of spades, or none of these cards. Get as few points as possbile.
 
 # Rules
-* Each of the four player is dealt 13 cards.
+* Each of the five player is dealt 10 cards. 2 of Spade and 2 of Diamond are removed.
 
 * Before the round starts, all four players pass three cards, left, right, across, or no pass: the game cycles through these four instances with the passing of rounds.
 
@@ -16,7 +16,7 @@ Win all the hearts and the queen of spades, or none of these cards. Get as few p
 
 * The player with the high ranked card of the suit that lead wins the trick (aces are high).
 
-* A player may not play hearts or the queen of spades on the first hand.
+* A player may not play hearts or the queen of spades on the first hand unless the player's all cards are heart.
 
 * After all the cards have been played, points are tallied for each player.
 
